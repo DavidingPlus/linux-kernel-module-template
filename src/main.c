@@ -1,8 +1,19 @@
+/**
+ * @file main.c
+ * @author DavidingPlus (davidingplus@qq.com)
+ * @brief 内核模块主程序入口文件。
+ *
+ * Copyright (c) 2025 电子科技大学 刘治学
+ *
+ */
+
 #include <linux/init.h>
 #include <linux/module.h>
 
+#include "config.h"
 
-MODULE_VERSION("1.0.0");
+
+MODULE_VERSION(LINUX_KERNEL_MODULE_CONFIG_VERSION);
 MODULE_LICENSE("Dual BSD/GPL");
 MODULE_AUTHOR("DavidingPlus");
 MODULE_DESCRIPTION("A Linux Kernel Module");
