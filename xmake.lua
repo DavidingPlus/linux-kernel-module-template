@@ -1,5 +1,5 @@
 set_project ("linux-kernel-module")
-set_version ("1.1.0")
+set_version ("1.1.1")
 
 
 option ("linux-headers", {showmenu = true, description = "Set linux-headers path."})
